@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<!-- Boilerplate HTML stuff -->
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Our page's title and custom styling file -->
+		<title>Claire de Lune</title>
+		<link rel="stylesheet" href="demo.css" type="text/css">
+
+		<!-- Bootstrap files -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+
+		<!-- Make the navbar "sticky" (sticks to top of screen) -->
+		<div class="sticky-top">
+			
+			<!-- Navbar -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light justify-content-center">
+				
+				<a class="navbar-brand d-flex w-50 mr-auto" href="#home">Claire de Lune</a>
+
+				<!-- This button replaces the links list when in mobile. -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse" id="nav">
+					<ul class="nav navbar-nav mr-auto justify-content-end">
+						<li class="nav-item">
+							<a class="nav-link" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#photography">Photography</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+		</div>
+
+		<!-- Page content -->
+		<div class="container-fluid">
+
+			<div class="col main">
+
+				<!-- Greeting section -->
+				<div class="row section" id="home">
+					<div class="bigtext">
+						<h1>Claire de Lune</h1>
+						<h4>Photography that shines.</h4>
+					</div>
+				</div>
+	
+
+				<!-- About section -->
+				<div class="row section" id="about">
+					<div class="col-3">
+						<img src="media/claire.jpg" class="img-fluid">
+					</div>
+					<div class="col-9">
+						<h2>Hi, I'm Claire.</h2>
+						<span class="align-middle">
+							<p>Lorem ipsum dolor sit amet, consectetur 
+								adipiscing elit. Fusce gravida blandit leo, non ultricies 
+								felis lacinia et. Nullam varius elit eu gravida consequat. 
+								Morbi vitae diam metus. Phasellus placerat fringilla fringilla. 
+								Curabitur ac lacus sed nisi vestibulum tempus eu vitae quam. 
+								Vivamus laoreet nisi ac elit aliquet tempus. Sed in tempor sem.
+							</p>
+							<p>Curabitur porttitor non nibh ac finibus. Donec finibus, 
+								lacus ac elementum sagittis, velit tellus molestie sem, 
+								vitae cursus massa dui in nisl. Vivamus et nisl odio. 
+								Integer a sem sagittis, fermentum urna in, posuere libero. 
+								Mauris congue libero tellus. Sed vulputate lobortis quam, 
+								et auctor turpis faucibus ut. Donec aliquet nisl magna, 
+								vitae ullamcorper diam viverra in.
+							</p>
+							<button id="cvbutton" type="button" onclick="window.location.href = '#' ">Check out my CV</button>
+						</span>
+					</div>
+				</div>
+	
+
+				<!-- Photography section -->
+				<div class="row section" id="photography">
+					<div class="column-fluid" id="photodesc">
+						<h2>Photography</h2>
+						<p>Donec sed velit ut sapien congue mollis lacinia id dolor. Maecenas laoreet pellentesque mauris id hendrerit. In gravida tempus luctus. Nullam vestibulum, urna pretium convallis rutrum, dolor neque mollis tellus, lacinia ornare turpis magna ut urna. Quisque porttitor, enim id vehicula semper, nunc velit semper ante, eget scelerisque felis tortor eget risus.</p>
+
+                        <!-- Photo gallery -->
+						<div class="row">
+							<div class="col-4">
+								<div class="thumbnail">
+									<img src="media/photo1.jpg" class="img-fluid">
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="thumbnail">
+									<img src="media/photo2.jpg" class="img-fluid">
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="thumbnail">
+									<img src="media/photo3.jpg" class="img-fluid">
+								</div>
+                            </div>
+                        </div>
+                        <div class="row">
+							<div class="col-4">
+								<div class="thumbnail">
+									<img src="media/photo4.jpg" class="img-fluid">
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="thumbnail">
+									<img src="media/photo5.jpg" class="img-fluid">
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="thumbnail">
+									<img src="media/photo6.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+	
+
+				<!-- Contact section -->
+				<div class="row section" id="contact">
+                    <div class="bigtext">
+                        <h1 class="text-center">Looking for a photo shoot?</h1>
+                        <p>Look no further. Contact me at <a href="#">claire@email.com</a> or drop me a line at 123-456-7890.</p>
+                        <br>
+                        <p>Find me on the below platforms too:</p>
+                        <p><a href="#">Behance</a> • <a href="#">Flickr</a> • <a href="#">LinkedIn</a></p>
+                    </div>
+				</div>
+
+			</div>
+			
+		</div>
+
+	</body>
+
+</html>
