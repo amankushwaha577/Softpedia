@@ -1,218 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SoftPedia</title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+        <link href="CSS/style.css" rel="stylesheet" type="text/css"/>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="icons/all.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"  crossorigin="anonymous">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css">
-  <title>Geek Dev</title>
-</head>
-                      <!-- 
-            Theme - Single Page Bootstrap Theme
-            Developer - Geeky Shows
-            Version - 1.0
-            Email - contact@geekyshows.com
-            Website - www.geekyshows.com
-                    -->
-<body>
-  <!-- Start Nagigation -->
-  
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark pl-5 fixed-top">
-    <a href="index.html" class="navbar-brand">GeekDev</a>
-    <span class="navbar-text">Learn and Implement</span>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="myMenu">
-      <ul class="navbar-nav pl-5 custom-nav">
-        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#Services" class="nav-link">Services</a></li>
-        <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
-        <li class="nav-item"><a href="#Team" class="nav-link">Team</a></li>
-        <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
-      </ul>
-    </div>
-  </nav> <!-- End Navigation -->
+        <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 
-  <!-- Start Header Jumbotron-->
-  <header class="jumbotron back-image" style="background-image: url(images/Banner.jpeg);">
-    <div class="text-center" style="margin-top: 120px;">
-      <h1 class="text-uppercase text-danger font-weight-bold">Welcome to Geek Developers</h1>
-      <p class="font-italic font-weight-bold st">Learn and Implement</p>
-      <a href="#Contact" class="btn btn-outline-danger mr-4">Hire Us</a>
-      <a href="https://www.youtube.com/user/GeekyShow1" target="_blank" class="btn btn-outline-danger">Join Us</a>
-    </div>
-  </header> <!-- End Header Jumbotron -->
 
-  <!-- Start Services -->
-  <div class="container text-center border-bottom" id="Services"> 
-    <h2>Our Services</h2>
-    <div class="row mt-4">
-      <div class="col-sm-4 mb-4">
-        <a href="#"><i class="fab fa-android fa-10x text-success"></i></a>
-        <h4 class="mt-4">Android Application</h4>
-      </div>
-      <div class="col-sm-4 mb-4">
-        <a href="#"><i class="fas fa-desktop fa-10x text-primary"></i></a>
-        <h4 class="mt-4">Web Application</h4>
-      </div>
-      <div class="col-sm-4 mb-4">
-        <a href="#"><i class="fas fa-database fa-10x text-info"></i></a>
-        <h4 class="mt-4">Database</h4>
-      </div>
-    </div>
-  </div> <!-- End Services -->
 
-  <!-- Start Course  -->
-  <div class="container pt-5" id="Courses"> <!-- Start Course Container -->
-    <h2 class="text-center">Our Courses</h2>  <!-- Course Heading -->
-    <div class="row mt-4">        <!-- Start Course 1st Row -->
-      <div class="col-lg-6 mb-4">     <!-- Start Course 1st Row's 1st Column -->
-        <img src="images/course1.jpeg" alt="" class="img-fluid">
-      </div>  <!-- End Course 1st Row's 1st Column -->
+    </head>
+    <body>
 
-      <div class="col-lg-6">    <!-- Start Course 1st Row's 2nd Column -->
-        <h2 class="text-center">Learn Java Programming</h2> <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ducimus, modi aut consequatur dolore ut praesentium esse recusandae at amet. Dolorem eius obcaecati ratione, quas laborum consequatur inventore vitae nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos asperiores magnam culpa ullam. Quasi voluptatem eveniet sed velit tempore eaque adipisci magnam recusandae quaerat praesentium illo, animi, sit ratione quo.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi atque ipsam optio, iusto explicabo odit suscipit delectus quis eum adipisci quo voluptas laboriosam quisquam sit, sint asperiores eius in!</p>
-      </div>  <!-- End Course 1st Row's 2nd Column -->
-    </div>  <!-- End Course 1st Row -->
 
-    <div class="row mt-4">    <!-- Start Course 2nd Row -->
-      <div class="col-lg-6">  <!-- Start Course 2nd Row's 1st Column -->
-        <h2 class="text-center">Real World Projects</h2> <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ducimus, modi aut consequatur dolore ut praesentium esse recusandae at amet. Dolorem eius obcaecati ratione, quas laborum consequatur inventore vitae nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos asperiores magnam culpa ullam. Quasi voluptatem eveniet sed velit tempore eaque adipisci magnam recusandae quaerat praesentium illo, animi, sit ratione quo.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi atque ipsam optio, iusto explicabo odit suscipit delectus quis eum adipisci quo voluptas laboriosam quisquam sit, sint asperiores eius in!</p>
-      </div>  <!-- End Course 2nd Row's 1st Column -->
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light nav-fixed">
+            <div class="container-fluid">
+                <a class="navbar-brand text-primary font-weight-bold" href="#"><img src="logo.png" height="40"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link btn btn-primary navbar-btn" href="index.html" style="color:gold; font-family:'Black Ops One'; font-size: 18px;">Home</a>
+                        </li>
 
-      <div class="col-lg-6 mb-4">   <!-- Start Course 2nd Row's 2nd Column -->
-        <img src="images/course2.jpeg" alt="" class="img-fluid">
-      </div>    <!-- End Course 2nd Row's 2nd Column -->
-    </div>    <!-- End Course 2nd Row -->
-  </div> <!-- End Course Container --> <!-- End Course  -->
 
-  <!-- Start Team  -->
-  <div class="jumbotron bg-danger" id="Team">   <!-- Start Team Jumbotron -->
-    <div class="container">     <!-- Start Team Container -->
-      <h2 class="text-center text-white">Team</h2>    <!-- Team Heading-->
-      <div class="row mt-5">    <!-- Start Team Row-->
-        <div class="col-lg-3 col-sm-6">     <!-- Start Team 1st Column-->
-          <div class="card shadow-lg mb-2">
-            <div class="card-body text-center">
-              <img src="images/avtar1.jpeg" class="img-fluid" style="border-radius: 100px;">
-              <h4 class="card-title">Rahul Kumar</h4>
-              <p class="card-text">Itaque illo explicabo voluptatum, saepe libero rerum, ad ducimus voluptas nesciunt debitis numquam.</p>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" style="color:red; font-family:'Black Ops One';font-size: 18px;">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mission.html" style="color:red; font-family:'Black Ops One';font-size: 18px;">Our Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html" style="color:red; font-family:'Black Ops One';font-size: 18px;">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="join.html" style="color:red; font-family:'Black Ops One';font-size: 18px;">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>	
+        </nav>
+        <!--End Navigation -->
+
+        <!--Slide Bar Carousel-->
+        <div id="slide" class="carousel slide" data-ride="carousel" >
+            <ul class="carousel-indicators">
+                <li data-target="#slide" data-slide-to="0" class="active"></li>
+                <li data-target="#slide" data-slide-to="1"></li>
+                <li data-target="#slide" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carousels/carousel1.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 style="color:red; font-family:'Black Ops One';">Welcome To SoftPedia</h1>
+                        <h3 style="font-family:'Bubblegum Sans';color:yellow;">Yard Of Best Out of Best Software</h3>
+                        <button type="button" class="btn btn-success">Windows Software</button>
+                        <button type="button" class="btn btn-danger">MAC Software</button>
+                        <button type="button" class="btn btn-warning">Android Software</button>
+                    </div>
+                </div>                
+                <div class="carousel-item">
+                    <img src="carousels/carousel2.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 style="color:red; font-family:'Black Ops One';">Welcome To SoftPedia</h1>
+                        <h3 style="font-family:'Bubblegum Sans';color:yellow;">Yard Of Best Out of Best Software</h3>
+                        <button type="button" class="btn btn-success">Windows Software</button>
+                        <button type="button" class="btn btn-danger">MAC Software</button>
+                        <button type="button" class="btn btn-warning">Android Software</button>
+                    </div>
+                </div>        
+                <div class="carousel-item">
+                    <img src="carousels/carousel3.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 style="color:red; font-family:'Black Ops One';">Welcome To SoftPedia</h1>
+                        <h3 style="font-family:'Bubblegum Sans';color:yellow;">Yard Of Best Out of Best Software</h3>
+                        <button type="button" class="btn btn-success">Windows Software</button>
+                        <button type="button" class="btn btn-danger">MAC Software</button>
+                        <button type="button" class="btn btn-warning">Android Software</button>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>    <!-- End Team 1st Column-->
+            <a class="carousel-control-prev" href="#slide" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slide" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="carousel-control-next-icon"></span>
+                <span class="carousel-control-next-icon"></span>
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
 
-        <div class="col-lg-3 col-sm-6">     <!-- Start Team 2nd Column-->
-          <div class="card shadow-lg mb-2">
-            <div class="card-body text-center">
-              <img src="images/avtar2.jpeg" class="img-fluid" style="border-radius: 100px;">
-              <h4 class="card-title">Sonam Sharma</h4>
-              <p class="card-text">Itaque illo explicabo voluptatum, saepe libero rerum, ad ducimus voluptas nesciunt debitis numquam.</p>
-            </div>
-          </div>
-        </div>      <!-- End Team 2nd Column-->
 
-        <div class="col-lg-3 col-sm-6">       <!-- Start Team 3rd Column-->
-          <div class="card shadow-lg mb-2">
-            <div class="card-body text-center">
-              <img src="images/avtar3.jpeg" class="img-fluid" style="border-radius: 100px;">
-              <h4 class="card-title">Sumit Vyas</h4>
-              <p class="card-text">Itaque illo explicabo voluptatum, saepe libero rerum, ad ducimus voluptas nesciunt debitis numquam.</p>
-            </div>
-          </div>
-        </div>       <!-- End Team 3rd Column-->
 
-        <div class="col-lg-3 col-sm-6">        <!-- Start Team 4th Column-->
-          <div class="card shadow-lg mb-2">
-            <div class="card-body text-center">
-              <img src="images/avtar4.jpeg" class="img-fluid" style="border-radius: 100px;">
-              <h4 class="card-title">Jyoti Sinha</h4>
-              <p class="card-text">Itaque illo explicabo voluptatum, saepe libero rerum, ad ducimus voluptas nesciunt debitis numquam.</p>
-            </div>
-          </div>
-        </div>     <!-- End Team 4th Column-->
-      </div>    <!-- End Team Row-->
-    </div>  <!-- End Team Container -->
-  </div> <!-- End Team Jumbotron -->
-
-  <!--Start Contact Us-->
-  <div class="container" id="Contact"> <!--Start Contact Us Container-->
-    <h2 class="text-center mb-4">Contact US</h2>    <!-- Contact Us Heading -->
-    <div class="row">           <!--Start Contact Us Row-->
-      <div class="col-md-8">    <!--Start Contact Us 1st Column-->
-        <form action="#" method="post">
-          <input class="form-control" name="name" placeholder="Name" /><br />
-          <input class="form-control" name="phone" placeholder="Phone" /><br />
-          <input class="form-control" name="email" placeholder="E-mail" /><br />
-          <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
-          <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
-        </form>
-      </div>  <!-- End Contact Us 1st Column-->
-
-      <div class="col-md-4 text-center">    <!-- Start Contact Us 2nd Column-->
-        <strong>Headquarter:</strong> <br>
-        Geeky Dev Pvt Ltd, <br>
-        Harmu, Ranchi <br>
-        Jharkhand - 834005 <br>
-        Phone: +00000000 <br> 
-        <a href="https://www.geekyshows.com" target="_blank">www.geekyshows.com</a> <br>
-    
+        <!--- Click here To know more -->
         <br><br>
-        <strong>Kolkata Branch:</strong> <br>
-        Geeky Dev Pvt Ltd, <br>
-        Sec V, Kolkata <br>
-        WB - 804002 <br>
-        Phone: +00000000 <br> 
-        <a href="https://www.geekyshows.com" target="_blank">www.geekyshows.com</a> <br>
-      </div>    <!-- End Contact Us 2nd Column-->
-    </div>    <!-- End Contact Us Row-->
-  </div>  <!-- End Contact Us Container-->    <!-- End Contact Us -->
+        <button type="button" class="fun btn btn-lg btn-block btn-outline-primary col-8 offset-2" data-toggle="collapse" data-target="#about">	<h3 class="display-4">Click Here</h3><h1 class="display-4">To know More</h1></button>
+        <div id="about" class="collapse">
+            <div class="container-fluid padding">
+                <div class="row">
+                    <div class="col-8 offset-2">
+                        <div class="jumbotron bg-success text-light">
+                            <p style="font-family: 'Acme';">My Website Softpedia is a front end static website where users can download the best softwares of MAC,windows and android. every software is categorized into subcategory from where everyone can access the content of this website.
+                                My is just to provide best quality content to the users so user have no need to worry about which software is best for their category. user have just navigate their category and all the related software of their cartegory will be appear on that page
+                                Our Website is the major download portal that doesn't wrap software packages/installers and provides them exactly as the developers offer them
+                                i have developed this website within 4 months. in our website there is no need to purchase any software . whatever we have provided here is free of cost.</p>			
+                        </div>
+                    </div> 
+                </div>  
+            </div>  
+        </div>  
+        <!--- End About Us -->
 
-  <!-- Start Footer-->
-  <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
-    <div class="container">   <!-- Start Footer Container -->
-      <div class="row py-3">    <!-- Start Footer Row -->
-        <div class="col-md-6">      <!-- Start Footer 1st Column -->
-          <div>
-            <span>Follow Us: </span>
-            <a href="https://www.facebook.com/GeekyShow" target="_blank"><i class="fab fa-facebook-f px-3"></i></a>
-            <a href="https://twitter.com/Geekyshow1" target="_blank"><i class="fab fa-twitter pr-3"></i></a>
-            <a href="https://www.youtube.com/user/GeekyShow1" target="_blank"><i class="fab fa-youtube pr-3"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-google-plus-g pr-3"></i></a>
-            <a href="#" target="_blank"><i class="fas fa-rss pr-3"></i></a>
-          </div>
-        </div>    <!-- End Footer 1st Column -->
+        <br><br>
 
-        <div class="col-md-6 text-right">   <!-- Start Footer 2nd Column -->
-          <small> Designed by <a href="https://www.geekyshows.com" target="_blank">GeekyShows</a> &copy; 2018. </small>
-        </div>    <!-- End Footer 2nd Column -->
-      </div>    <!-- End Footer Row -->
-    </div>    <!-- End Footer Container -->
-  </footer> <!-- End Footer -->
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-</body>
+        <!--- 3 Columns -->
+        <div class="container bg-secondary rounded">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="text-warning" style="color:red; font-family:'Black Ops One';">Free MAC Softwares</h4>
+                    <p class="text-info" style="font-family: 'Acme';">If you are Looking to download safe free versions of the latest software for Mac, than our website is specialy designed for you
+                        Softpedia is the best way to discover Free Mac Software. Download, install, or update Mac Apps, read user reviews or submit your own. If you’ve never used Softpedia, do give it a try.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-warning" style="color:red; font-family:'Black Ops One';" >Free Windows Softwares</h4>
+                    <p class="text-info" style="font-family: 'Acme';" >For Windows software softpedia is one of the biggest and most popular free software download sites where you can find almost any free and paid software you want for multiple platforms. The good thing about Softpedia is that you will always get the latest version of the software you want.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-warning" style="color:red; font-family:'Black Ops One';">Free Android Softwares</h4>
+                    <p class="text-info" style="font-family: 'Acme';">All the android application is also available in our site . One of the best things about SoftPedia is its different categories where you can find the top 100 free software, latest user reviews, top user favorites, top portable apps, etc. and all the related details of softwares will be categories in each section of each software</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="index image/game.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">In our Website you can Download  Free Full Version PC Games with Trusted and Safe! Resources</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Lets Go To Game Section</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="index image/learning.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">Download  Free Full Version E-Learning Softwares with Trusted and Safe! Resources with different categories</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Lets Go To Learning Section</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="index image/cinema.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">Downloads Movies Softwares for Windows, Mac, iOS and Android devices across all categories of software and apps</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Lets Go To Cinema Section</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="index image/food.png" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">In our Website you can Download  Food Service Softwares with Trusted and Safe! Resources</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Lets Go To Food Section</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="index image/shopping.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">Download  Free Full Version E-Shopping with Trusted and Safe! Resources with different categories</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Lets Go To Shopping Section</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="index image/chatting.jpeg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">Downloads Chatting Softwares for Windows, Mac, iOS and Android devices across all categories of software and apps</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Lets Go To Chatting Section</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="index image/music.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">In our Website you can Download  Free Music Softwares with Trusted and Safe! Resources</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Lets Go To Music Section</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="index image/social.png" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">Download  Social Media Softwares with Trusted and Safe! Resources with different categories</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Lets Go To Social Section</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="index image/photoshop.png" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">Downloads Photoshoap Softwares for Windows, Mac, iOS and Android devices across all categories of software and apps</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Lets Go To Photoshoap Section</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br><br>
+
+        <!--- Connect -->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+
+                <div class="col-12">
+                    <h2 class="display-4">Connect</h2>
+                    <hr width="150px">
+                </div>
+                <div class="col-12 social padding">
+                    <a href="https://www.facebook.com/profile.php?id=100009725885406"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/aman-kushwaha-ba0038182/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/amankushwaha57"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCmX-4Ao33RTPzy2RBzDONSA?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/the_amankushwaha/"><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <!--- End Connect -->
+
+        <br><br>
+
+        <!--- Footer -->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center font-weight-bold">
+
+                    <div class="col-sm-10 offset-sm-1 col-md-4 offset-md-0">
+                        <hr class="light">
+                        <h5>Aman Kushwaha</h5>
+                        <hr class="light">
+                        <p>GLA University Mathura</p>
+                    </div>
+                    <div class="col-sm-10 offset-sm-1 col-md-4 offset-md-0">
+                        <hr class="light">
+                        <a class="logo text-light" href="#"><img src="logo.png" height="60"></a>
+                        <hr class="light">
+                        <p></p>
+                    </div>
+                    <div class="col-sm-10 offset-sm-1 col-md-4 offset-md-0">
+                        <hr class="light">
+                        <h5>Contact Us</h5>
+                        <hr class="light">
+                        <p>amankushwaha57@gmail.com</p>
+
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>&copy; SoftPedia</h5>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!--- End Footer -->
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+
+    </body>
 </html>
+
