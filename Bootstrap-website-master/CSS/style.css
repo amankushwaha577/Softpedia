@@ -6,6 +6,7 @@ width:100%;
 font-family: 'poppins', sans-serif;
 color: #222;
 }
+
 body
 {
 /*    background-image: url("background.jpg");
@@ -14,7 +15,7 @@ body
     background-attachment: fixed;*/
 }
 
-
+/*
 .carousel-caption {
 position: absolute;
 top: 50%;
@@ -25,7 +26,7 @@ bottom: auto;
 
 .carousel-caption h1 {
 text-shadow: 1px 1px 15px #000;
-}
+}*/
 
 .padding {
 padding-bottom: 2rem;
@@ -131,21 +132,6 @@ font-size:120%;
 
 @media (max-width: 768px) {
 
-.carousel-caption {
-top: 45%;
-}
-.carousel-caption h1 {
-font-size: 150%;
-}
-  
-.display-4 {
-font-size: 150%;
-}
-
-p.lead {
-font-size: 110%;
-}
-
 
 
 .social a {
@@ -231,3 +217,5 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
+
+
