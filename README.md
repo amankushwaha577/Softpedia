@@ -29,8 +29,8 @@ Alphazone uses 8 Technologies
 Technology| Percentafe of usage
 ------------ | -------------
 HTML5 | 45%
-Bootstrap 4 | 30%
-CSS 3 | 20%
+Bootstrap 4 | 20%
+CSS 3 | 30%
 java Script  | 5%
 
 
