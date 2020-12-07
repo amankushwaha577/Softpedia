@@ -5,7 +5,7 @@ My Website Softpedia is a front end static website where users can download     
 
 
   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `For Windows software our website is one of the biggest software download            sites where you can find almost any free and paid software you want for              multiple platforms. The good thing about Softpedia is that you will always get             the latest version of the software you want.`
- - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `The existing educational websites does not provides the all content related to subjects if they are providing than there is a chance that they  all are not providing handwritten notes and video lectures at the same  instance so here alphoze removes this disadvantage by providing all       these facility`
+ - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `In future every software related to anything will be available here in this             website. Herenowwearenotprovidingbackendsystembutmajorprojectwill             be based on front end and back end development system . Major project will              have contribution  system so user can give their requirement related to new software to this Web              Application.`
 
 ![1 gif](https://user-images.githubusercontent.com/53748350/99796627-d32aa780-2b53-11eb-8b87-426ce4752066.gif)
 
