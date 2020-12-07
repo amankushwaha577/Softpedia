@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+height:100%;
+width:100%;
+font-family: 'poppins', sans-serif;
+color: #222;
+}
+
+body
+{
+/*    background-image: url("background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+/*
+.carousel-caption {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+bottom: auto;
+}
+
+
+.carousel-caption h1 {
+text-shadow: 1px 1px 15px #000;
+}*/
+
+.padding {
+padding-bottom: 2rem;
+}
+
+.welcome {
+width:75%;
+margin:0 auto;
+padding-top: 2rem;
+}
+
+.social a {
+font-size: 4.5em;
+padding: 3rem;
+}
+.fa-facebook {
+color: #3b5998;
+}
+.fa-twitter {
+color: #00aced;
+}
+.fa-google-plus-g {
+color: #dd4b39;
+}
+.fa-instagram {
+color: #517fa8;
+}
+.fa-youtube {
+color: #bb0000;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover {
+color: #D5D5D5;
+}
+
+footer {
+background: linear-gradient(to top right, #669999 30%, #666699 70%);
+color: #D5D5D5;
+padding-top: 2rem;
+}
+
+footer.blockquote-footer {
+background: none;
+}
+
+hr.light {
+border-top: 1px solid #d5d5d5;
+width: 75%;
+margin-top: .8rem;
+margin-bottom: 1rem;
+}
+
+hr.light-100 {
+border-top: 1px solid #d5d5d5;
+width: 100%;
+margin-top: .8rem;
+margin-bottom: 1rem;
+}
+
+
+
+.logo {
+font-size:15px;
+}
+
+
+h2.worth{
+font-size:150%;
+}
+
+img.worth{
+font-size:150%;
+}
+
+hr{
+  border-top: 1px solid blue;
+}
+
+hr.a{
+  border-top: 1px solid white;
+}
+
+
+/*---Media Queries --*/
+
+@media (max-width: 992px) {
+.social a {
+	font-size:4em;
+	padding:2rem;
+}
+.carousel-caption h1 {
+font-size: 200%;
+}
+  
+.display-4 {
+font-size: 200%;
+}
+
+h2.worth{
+font-size:120%;
+}
+}
+
+@media (max-width: 768px) {
+
+
+
+.social a {
+font-size: 2.5em;
+padding: 1.2rem;
+}
+
+h2.worth{
+font-size:110%;
+}
+
+footer {
+padding-top: 1rem;
+}
+
+
+}
+
+@media (max-width: 576px) {
+
+.carousel-caption {
+top: 40%;
+}
+
+.carousel-caption h1 {
+font-size: 130%;
+}
+  
+.display-4 {
+font-size: 130%;
+}
+
+
+
+.social a {
+font-size: 2em;
+padding: .7rem;
+}
+
+h2.worth{
+font-size:100%;
+}
+
+}
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/net.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
