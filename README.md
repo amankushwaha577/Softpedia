@@ -28,14 +28,11 @@ Alphazone uses 8 Technologies
 
 Technology| Percentafe of usage
 ------------ | -------------
-HTML5 | 8%
-Bootstrap 4 | 16%
-CSS 3 | 29%
-java Script  | 9%
-Express | 7%
-React | 18%
-Next | 11%
-Node  | 6%
+HTML5 | 45%
+Bootstrap 4 | 30%
+CSS 3 | 20%
+java Script  | 5%
+
 
 
 # hardware and Software Requirement
@@ -56,23 +53,6 @@ GitHUB Desktop 2
 
 
 
-# Web API
-
-Web API| URL | Description
------------- | ------------- | -------------
-User Register| /api/v1/user/register | Localhost
-User Login | /api/v1/user/login | Localhost
-User Logout | /api/v1/user/:userID/logout | Localhost
-User Auth | /api/v1/user/authentication | Localhost
-User Info | /api/v1/user/:userID | Localhost
-User Online PC List| /api/v1/user/computer/online | Localhost
-Public PC Access | /api/v1/computer/public/access | Localhost
-User PC List | /api/v1/user/computer | Localhost
-Update User Account | /api/v1/user/update | Localhost
-Update User Password | /api/v1/user/password/edit | Localhost
-Update User PC Public status | /api/v1/user/computer/public/status/update | Localhost
-Update User PC Public Key | /api/v1/user/computer/public/key/update | Localhost
-
 
 
 
@@ -84,16 +64,19 @@ Update User PC Public Key | /api/v1/user/computer/public/key/update | Localhost
     .
     ├── index.html           
     ├── folder/CSS                       
-    ├── folder/Books HTML               
-    ├── folder/Notes Html             
-    ├── folder/Photos               
+    ├── folder/Game Web Page              
+    ├── folder/Elearning Web Page             
+    ├── folder/Music Web Page              
     ├── folder/icons
-    ├── folder/Client
-    ├── folder/Server
+    ├── folder/Chatting Web Page
+    ├── folder/Food Web Page
+    ├── folder/Movie Web Page
+    ├── folder/PhotoShop 
+    ├── folder/Shopping web Page
+    ├── folder/Social Web Page
     ├── folder/folder/Index Photos
     ├── folder/Synopsis              
-    ├── folder/WireFrame             
-    ├── folder/DFD              
+    ├── folder/WireFrame                       
     ├── folder/Usecase
     ├── folder/Certificate
     ├── folder/Presentation
@@ -103,7 +86,7 @@ Update User PC Public Key | /api/v1/user/computer/public/key/update | Localhost
     
    License
 ----
-@Copyright Alphazone  2020
+@Copyright SoftPedia
 -Aman Kushwaha
     
     
