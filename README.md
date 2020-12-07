@@ -1,10 +1,10 @@
-# Alphazone
-<img src="readm/logo.png" height=50 >
+# SoftPedia
+<img src="logo.png" height=50 >
 
-This website is developed for B.Tech Computer Science students in  order to provide best educational hand written notes ,standard notes and   video lecture series.
+My Website Softpedia is a front end static website where users can download             the best softwares of MAC,windows and android. everysoftwareiscategorized           into subcategory from where everyone can access the content of this website.            My is just to provide best quality content to the users so user have no need to                 worry about which software is best for their category. user have just navigate             their category and all the related software of their cartegory will be appear on              that page Our Website is the major download portal that doesn't wrap software             packages/installers and provides them exactly as the developers offer them i           have developed this website within 4 months. in our websitethereisnoneedto               purchase any software . whatever we have provided here is free of cost. 
 
 
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) ` If some time a student missed the class than there is a chance that he  will skip that topic of that class and if somehow if he want to cover that                topic from books it will take huge amount of time so here presence of              handwritten notes student will save his huge amount of time.`
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `For Windows software our website is one of the biggest software download            sites where you can find almost any free and paid software you want for              multiple platforms. The good thing about Softpedia is that you will always get             the latest version of the software you want.`
  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `The existing educational websites does not provides the all content related to subjects if they are providing than there is a chance that they  all are not providing handwritten notes and video lectures at the same  instance so here alphoze removes this disadvantage by providing all       these facility`
 
 ![1 gif](https://user-images.githubusercontent.com/53748350/99796627-d32aa780-2b53-11eb-8b87-426ce4752066.gif)
