@@ -14,11 +14,10 @@ My Website Softpedia is a front end static website where users can download     
 
 # New Features!
 
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Zoom Lectures Sharing Facility for Teachers`
-  - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Downloadable Handwritten notes of every Computer Science Subject for All CSE Students`
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Downloadable Free Standard Books of every Computer Science Subject for All CSE Students`
-  - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Category wise full listed Syllabus`
-  
+ - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `All Windows ,Mac and Android software availability `
+  - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Different Softwares in Different Categories.`
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `No Need to pay Huge amount of money.`
+  - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Always get latest version of softwares. `
   
   
 
