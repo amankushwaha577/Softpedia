@@ -22,18 +22,6 @@ My Website Softpedia is a front end static website where users can download     
   
   
 
-# Tech
-
-Alphazone uses 8 Technologies
-
-Technology| Percentafe of usage
------------- | -------------
-HTML5 | 45%
-Bootstrap 4 | 20%
-CSS 3 | 30%
-java Script  | 5%
-
-
 
 # hardware and Software Requirement
 
@@ -52,37 +40,6 @@ GitHUB Desktop 2
 ```
 
 
-
-
-
-
-
-
-
-# Folder Structure
-
-    .
-    ├── index.html           
-    ├── folder/CSS                       
-    ├── folder/Game Web Page              
-    ├── folder/Elearning Web Page             
-    ├── folder/Music Web Page              
-    ├── folder/icons
-    ├── folder/Chatting Web Page
-    ├── folder/Food Web Page
-    ├── folder/Movie Web Page
-    ├── folder/PhotoShop 
-    ├── folder/Shopping web Page
-    ├── folder/Social Web Page
-    ├── folder/folder/Index Photos
-    ├── folder/Synopsis              
-    ├── folder/WireFrame                       
-    ├── folder/Usecase
-    ├── folder/Certificate
-    ├── folder/Presentation
-    ├── LICENSE
-    └── README.md
-    
     
    License
 ----
